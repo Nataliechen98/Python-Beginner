@@ -1,0 +1,22 @@
+class Mammal:
+    def __init__(self, name):
+        self.name = name
+    def walk(self):
+        print(f"{self.name}, walk faster!")
+
+
+class Dog(Mammal):    #dog class inherit all methods defined in Mammal class
+    def bark(self):
+        print("woof woof")
+
+
+class Cat(Mammal):
+    pass    #so that it's not an empty class
+
+
+dog1 = Dog("Woffie")
+dog1.walk()
+dog1.bark()
+
+cat1 = Cat("Meowy")
+cat1.walk()
