@@ -1,0 +1,13 @@
+class Person:
+    #constructor func
+    def __init__(self, name):
+        self.name = name
+    def talk(self):
+        print(f"Hi, I am {self.name}")    #returns name attribute of the current person object
+
+
+natalie = Person("Natalie Chen")
+natalie.talk()
+
+hailey = Person("Hailey Lee")
+hailey.talk()
