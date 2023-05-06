@@ -1,0 +1,22 @@
+def locate_card(cards, query):
+    position = 0
+    for card in cards:
+        if card == query:
+            return position
+        elif card != query:
+            position += 1
+        if position == len(cards):
+            return -1
+
+def main():
+    cards = [9, 8, 7, 6, 5, 1]
+    query = 7
+    actual_position = 2
+    expected_position = locate_card(cards, query)
+    print(expected_position)
+
+    if (actual_position == expected_position):
+        print("Card found")
+
+main()
+
