@@ -1,12 +1,15 @@
-arrs = [5, 9, 16, 8, 6]
+arr = [5, 9, 16, 8, 6]
 
-for arr in arrs[0:2]:
-    print(arr)
+for x in arr:
+    print(x)
     
     
    #output: 
-   5
-   9
+  5
+  9
+  16
+  8
+  6
    
    
    for arr in range(len(arr))
