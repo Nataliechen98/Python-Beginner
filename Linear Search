@@ -1,0 +1,21 @@
+arrs = [5, 9, 16, 8, 6]
+
+for arr in arrs[0:2]:
+    print(arr)
+    
+    
+   #output: 
+   5
+   9
+   
+   
+   for arr in range(len(arr))
+   print(arr)
+   
+   #output:
+   0
+   1
+   2
+   3
+   4
+   
