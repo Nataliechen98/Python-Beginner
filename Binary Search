@@ -2,7 +2,7 @@ def pick_random(cards, query):
 
     low, high = 0, len(cards) - 1
 
-    while low <= high:
+    while low <= high:  ////   while True
         mid = int((low + high) / 2)
         mid_number = cards[mid]
 
